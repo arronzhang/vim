@@ -39,6 +39,8 @@ if !exists("b:eruby_subtype") && main_syntax == 'eruby'
     let b:eruby_subtype = 'gnuplot'
   elseif b:eruby_subtype == 'rgnuplot'
     let b:eruby_subtype = 'gnuplot'
+  elseif b:eruby_subtype == 'rdot'
+    let b:eruby_subtype = 'dot'
   elseif b:eruby_subtype == ''
     let b:eruby_subtype = g:eruby_default_subtype
   endif

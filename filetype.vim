@@ -80,6 +80,9 @@ au BufNewFile,BufRead *.plt,*.gnuplot setf gnuplot
 " Gnuplot eruby
 au BufNewFile,BufRead *.rplt,*.rgnuplot	setf eruby
 
+" Graphviz eruby
+au BufNewFile,BufRead *.rdot setf eruby
+
 
 " A-A-P recipe
 au BufNewFile,BufRead *.aap			setf aap
