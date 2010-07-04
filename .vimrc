@@ -60,7 +60,11 @@ if has("autocmd")
   " Use the default filetype settings, so that mail gets 'tw' set to 72,
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
+  set nocp
+
   filetype plugin indent on
+
+  autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 
   " Put these in an autocmd group, so that we can delete them easily.
   augroup vimrcEx

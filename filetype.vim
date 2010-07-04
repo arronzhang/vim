@@ -86,8 +86,9 @@ au BufNewFile,BufRead *.rdot setf eruby
 " Atlas
 au BufNewFile,BufRead *.atl  setf atlas
 
-" Actionscript
+" MXML, Actionscript
 au BufNewFile,BufRead *.as			setf actionscript
+au BufNewFile,BufRead *.mxml			setf mxml
 
 
 " A-A-P recipe
