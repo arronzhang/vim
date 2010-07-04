@@ -83,6 +83,12 @@ au BufNewFile,BufRead *.rplt,*.rgnuplot	setf eruby
 " Graphviz eruby
 au BufNewFile,BufRead *.rdot setf eruby
 
+" Atlas
+au BufNewFile,BufRead *.atl  setf atlas
+
+" Actionscript
+au BufNewFile,BufRead *.as			setf actionscript
+
 
 " A-A-P recipe
 au BufNewFile,BufRead *.aap			setf aap
