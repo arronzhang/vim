@@ -102,6 +102,8 @@ endif
 """"""""""""""""""""""""""""" user style
 set nobackup		" keep a backup file
 
+set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936
+
 " 打开javascript折叠
 let b:javascript_fold=1
 " 打开javascript对dom、html和css的支持
