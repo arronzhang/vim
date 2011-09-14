@@ -11,9 +11,11 @@ snippet fun
 	}
 # Anonymous Function
 snippet f
-	function(${1}) {${2}};
+	function(${1}) {
+		${2}
+	};
 # System put
-snippet p
+snippet c
 	console.log(${1});
 # if
 snippet if
@@ -86,4 +88,6 @@ snippet copy
 	 *
 	 * Date: `strftime("%Y-%m-%d")`
 	 */
-
+# add string in string
+snippet +
+	" + ${1:str} + "
