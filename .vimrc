@@ -43,7 +43,7 @@ inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+  set mouse=n
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
@@ -102,6 +102,7 @@ endif
 """"""""""""""""""""""""""""" user style
 set nobackup		" keep a backup file
 
+set fencs=utf-8,gbk
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936
 
 " 打开javascript折叠
@@ -114,3 +115,6 @@ augroup mkd
 	autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
 	autocmd BufNewFile,BufRead *.mkd set wrap nonumber
 augroup END
+
+" Map commandT
+map ff <esc>:CommandT<cr>
