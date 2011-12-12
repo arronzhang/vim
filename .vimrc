@@ -110,6 +110,7 @@ let b:javascript_fold=1
 " 打开javascript对dom、html和css的支持
 let javascript_enable_domhtmlcss=1
 autocmd FileType javascript set dictionary=~/.vim/dict/javascript.dict
+autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
 
 augroup mkd
 	autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
@@ -118,3 +119,5 @@ augroup END
 
 " Map commandT
 map ff <esc>:CommandT<cr>
+
+set number
