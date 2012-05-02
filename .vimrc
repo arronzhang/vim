@@ -120,4 +120,6 @@ augroup END
 " Map commandT
 map ff <esc>:CommandT<cr>
 
+call pathogen#infect()
 " set number
+
