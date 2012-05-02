@@ -120,4 +120,4 @@ augroup END
 " Map commandT
 map ff <esc>:CommandT<cr>
 
-set number
+" set number
