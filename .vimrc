@@ -50,6 +50,8 @@ endif
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
   syntax on
+  " set background=dark
+  " colorscheme solarized
   set hlsearch
 endif
 
@@ -122,4 +124,3 @@ map ff <esc>:CommandT<cr>
 
 call pathogen#infect()
 " set number
-
